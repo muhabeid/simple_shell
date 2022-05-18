@@ -1,4 +1,5 @@
-#include "main.h"
+#include "shell.h"
+
 char **_copyenv(void);
 void free_env(void);
 char **_getenv(const char *var);
@@ -53,11 +54,11 @@ void free_env(void)
 }
 
 /**
- * _getenv - Gets an environmental variable from the PATH
- * @var: The name of the environmental variable to get
+ * _getenv - Gets an environmental variable from the PATH.
+ * @var: The name of the environmental variable to get.
  *
- * Return: If the environmental variable does not exist - NULL
- *         Otherwise - a pointer to the environmental variable
+ * Return: If the environmental variable does not exist - NULL.
+ *         Otherwise - a pointer to the environmental variable.
  */
 char **_getenv(const char *var)
 {

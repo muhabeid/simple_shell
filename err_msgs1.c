@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 char *error_env(char **args);
 char *error_1(char **args);
